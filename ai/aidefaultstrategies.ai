@@ -1,0 +1,13 @@
+rem ESAI Strategy : medium FCA PF
+
+rem -= load Enhanced SAI core =-
+run /mods/aix2_reality/ESAI/Core/esaicore.ai
+
+rem -= load Enhanced SAI default plugins =-
+run /mods/aix2_reality/ESAI/Plugin/default/grabNeutrals.ai
+run /mods/aix2_reality/ESAI/Plugin/default/endGame.ai
+
+rem -= load user plugins =-
+run /mods/aix2_reality/ESAI/Plugin/user/userConditions.ai
+run /mods/aix2_reality/ESAI/Plugin/user/focusedCounterAttack.ai
+run /mods/aix2_reality/ESAI/Plugin/user/pushForward.ai

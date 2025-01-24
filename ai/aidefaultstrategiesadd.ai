@@ -1,0 +1,10 @@
+rem -= load strategy =-
+run /mods/aix2_reality/ESAI/Strategy/user/largeFCAPF.ai
+rem ai.addSAIStrategy 1 Attack
+rem ai.addSAIStrategy 1 Defend
+rem ai.addSAIStrategy 1 UnReachable
+
+rem --- Team 2 ---
+rem ai.addSAIStrategy 2 Attack
+rem ai.addSAIStrategy 2 Defend
+rem ai.addSAIStrategy 2 UnReachable
